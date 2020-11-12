@@ -31,6 +31,30 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
+-- entity RTL_EQ is
+--    Port ( a : in STD_LOGIC_VECTOR (31 downto 0);
+--           b : in STD_LOGIC_VECTOR (31 downto 0);
+--           eq : out STD_LOGIC);
+-- end RTL_EQ;
+
+-- architecture Behavioral of RTL_EQ is
+
+-- begin
+
+-- process(a,b)
+-- begin
+
+-- if (a=b) then
+-- eq <= '1';
+
+-- else
+-- eq <= '0';
+
+-- end if; 
+
+-- end process;
+-- end Behavioral;
+
 entity RTL_EQ is
     Port ( a : in STD_LOGIC_VECTOR (31 downto 0);
            b : in STD_LOGIC_VECTOR (31 downto 0);
